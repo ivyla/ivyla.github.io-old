@@ -1,3 +1,0 @@
--Figure out how to design icons for branding
--Figure out how to resize scrolly buttons
--Set up Jekyll
