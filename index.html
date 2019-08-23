@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> ivyla.github.io </title> 
+        <title> beta site </title> 
+        <link rel = "stylesheet" type="text/css" href = style.css>
     </head>
     <body>
+        <!-- flex container, following divs will be "flex items" -->
         <div class = "wrapper">
+            <div class ="navi">
+                <ul>
+                    <li> home </li>
+                    <li> bio </li>
+                    <li> projects </li>
+                    <li> experience </li>
+                    <li> contact </li>
+                </ul>
+            </div>
 
             <!-- Introductory heading -->
             <div class = "my-name">
-                <img src= "img/default.png" width = "200"/>
+                <img id = "prof-pic" src= "img/default.png" width = "200"/>
         
-                <h1> Ivy La </h1>
+                <h1> 
+                    Ivy La
+                </h1>
                 <h4> 
                     <i> Aspiring Software Engineer with an interest in Full Stack development and UI design </i>
                 </h4>
@@ -18,21 +31,23 @@
 
             <!-- Bio  -->
             <div class = "bio">
+                <h4>
+                    Hello world!
+                </h4>
                 <p> 
-                    Hello world! I'm Ivy and I'm a senior finishing up my Computer Science B.S at UC Santa Cruz.
-                    I love to immerse myself in the problem solving process and bring my ideas to life.
-                    I hope to use my creations to help others in need and create a positive impact in others' lives.
+                    I'm Ivy and I'm a senior finishing up my Computer Science B.S at UC Santa Cruz. <br>
+                    I love to immerse myself in the problem solving process and bring my ideas to life.<br>
+                    I hope to use my creations to help others in need and create a positive impact in others' lives.<br>
                 </p>
+                
+                <!-- Media handles -->
+                <!-- <div class = "media-handles"> -->
+                    <ul>
+                        <li> <a href ="https://github.com/ivyla"> Github </a> </li>
+                        <li> <a href ="https://www.linkedin.com/in/ivyla/"> LinkedIn </a> </li>
+                    </ul>
+                    <!-- </div> -->
             </div>
-
-            <!-- Media handles -->
-            <div class = "media-handles">
-                <ul>
-                    <li> <a href ="https://github.com/ivyla"> Github </a> </li>
-                    <li> <a href ="https://www.linkedin.com/in/ivyla/"> LinkedIn </a> </li>
-                </ul>
-            </div>
-
         </div>
     </body>
 </html>
