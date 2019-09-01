@@ -2,19 +2,68 @@ html, body {
     font-family: "Noto-Sans", sans-serif;
     scroll-behavior: smooth;
     background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
-    /* display: flex;
-    align-content: center; */
 }
 
 #prof-pic {
     border-radius: 50%
 }
 
-.navigation-bar {
+.nav {
     text-decoration: none;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     margin: 10px;
     padding: 10px;
+    text-transform: uppercase;
+}
+
+.nav ul {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+.nav a {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    display: block;
+
+}
+
+/* https://www.youtube.com/watch?v=2plKBskaKfY */
+@media screen and (min-width: 760px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav li {
+        display: 1 1 0;
+    }
+}
+
+.nav a:hover {
+    color: grey;
+    background-color: pink;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home h1, p, h3 {
+    text-align: center;
+    /* tex */
+}
+
+
+.collection {
+    list-style-type: none;
 }
 
 /* .wrapper {
@@ -35,20 +84,10 @@ html, body {
     padding: 10px;
 } */
 
-
-
-.collection {
-    list-style-type: none;
-}
-
 .media-handles li {
     list-style: none;
+    display: inline-block;
     padding-left: 0px;
     text-decoration: none;
-    display: inline-block;
     margin-right: 8px;
-}
-
-.media-handles a:hover {
-    background-color: rgba(0, 0, 0, 0.1)
 }
