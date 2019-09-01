@@ -1,47 +1,41 @@
 html, body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-family: "Noto-Sans", sans-serif;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
+    scroll-behavior: smooth;
+    background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
+    /* display: flex;
+    align-content: center; */
 }
 
 #prof-pic {
     border-radius: 50%
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: row;
-    max-width: 50%;
-    height: 80%;
-    /* background-color: green; */
+.navigation-bar {
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
 }
 
-.nameplate, .bio, .navi {
+/* .wrapper {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 80%;
+    background-color: green;
+} */
+
+/* .nameplate, .bio, .navi {
     align-items: center;
     justify-content: center;
     margin: 10px;
     padding: 10px;
-}
+} */
 
-#ivyla {
-    color: blue;
-}
 
-.bio {
-    align-items: center;
-    /* margin: 10px; */
-    /* padding: 10px; */
-}
-
-.navi {
-    margin: 10px;
-    padding: 10px;
-    /* list-style-type: none; */
-}
 
 .collection {
     list-style-type: none;
