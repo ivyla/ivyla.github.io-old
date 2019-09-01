@@ -66,24 +66,6 @@ html, body {
     list-style-type: none;
 }
 
-/* .wrapper {
-    display: flex;
-    align-items: stretch;
-    justify-content: flex-start;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    width: 80%;
-    background-color: green;
-} */
-
-/* .nameplate, .bio, .navi {
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-    padding: 10px;
-} */
-
 .media-handles li {
     list-style: none;
     display: inline-block;
